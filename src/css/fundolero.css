@@ -8,7 +8,7 @@
 */
 /* Theme default */
 body {
-  font-family: 'Open Sans', arial, sans-serif;
+ font-family: AvenirNext-Regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #494d55;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -215,7 +215,7 @@ a.btn-cta {
 }
 .main-nav .nav .nav-item {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 25px;
 }
 .main-nav .nav .nav-item.active a {
@@ -224,7 +224,7 @@ a.btn-cta {
 }
 .main-nav .nav .nav-item a {
   color: rgba(255, 255, 255, 0.65);
-  font-weight: 700;
+  font-weight: 400;
 }
 .main-nav .nav .nav-item a:hover {
   color: #fff;
@@ -241,6 +241,20 @@ a.btn-cta {
 .main-nav .nav .nav-item:last-child {
   margin-right: 0;
 }
+
+.main-nav .nav .nav-item a.pill-button {
+    background-color: transparent;
+    padding: 5px 15px;
+    margin-bottom: 34px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    font-family: AvenirNext-Regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    transition: background-color .5s ease;
+    font-weight: 600;
+    font-size: 15px;
+}
+
 .main-nav .nav.active {
   position: relative;
 }
