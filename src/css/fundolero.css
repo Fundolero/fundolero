@@ -134,7 +134,7 @@ a.btn .fa {
 }
 .header.header-scrolled .logo {
   color: #40babd;
-  padding-top: 12px;
+  padding-top: 16px;
 }
 .header.header-scrolled .logo .logo-icon-wrapper {
   background: #40babd;
@@ -151,8 +151,8 @@ a.btn .fa {
   text-align: center;
 }
 .header.header-scrolled .logo .logo-icon {
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
   margin-right: 0;
 }
 .header.header-scrolled .main-nav .nav .nav-item a {
