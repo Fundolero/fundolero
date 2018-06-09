@@ -249,11 +249,10 @@ a.btn .fa {
     top: 100%;
     left: 0;
     z-index: 1000;
-    display: none;
     float: left;
     background-color: #4D4D4D;
     min-width: 500px;
-    padding: 40px 10px 30px 70px;
+    padding: 20px 10px 15px 40px;
     margin: 2px 0 0;
     font-size: 14px;
     text-align: left;
