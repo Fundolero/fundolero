@@ -347,13 +347,16 @@ a.btn-cta {
 .about-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-  font-size: 36px;
-  font-weight: 300;
+   font-weight: bold;
+   line-height: 1.4em;
+    text-align: center;
+     font-size: 48px;
 }
 .about-section .intro {
   color: #a2a6af;
-  font-size: 16px;
+  font-size: 20px;
   max-width: 760px;
+  line-height: 26px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
