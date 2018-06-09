@@ -280,6 +280,8 @@ a.btn-cta {
 }
 .hero-section .figure-holder-wrapper {
   position: absolute;
+  opacity: 0.3;
+  background-color: rgb(000, 000, 000);
   left: 0;
   bottom: 0;
   width: 100%;
