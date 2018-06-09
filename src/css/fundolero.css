@@ -289,6 +289,7 @@ a.btn-cta {
   opacity: 0.3;
   background-color: rgb(000, 000, 000);
   left: 0;
+  z-index: 1;
   bottom: 0;
   width: 100%;
   overflow: hidden;
@@ -336,13 +337,15 @@ a.btn-cta {
 .hero-carousel .carousel-inner .heading {
       font-size: 58px;
     line-height: 64px;
+    z-index: 2;
     margin: 0 0 .5em;
   font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
 }
 .hero-carousel .carousel-inner .intro {
     font-style: normal;
     font-weight: 400;
+    z-index: 2;
     font-size: 24px;
     line-height: 1.4em;
     line-height: 35px;
