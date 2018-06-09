@@ -240,10 +240,22 @@ a.btn .fa {
   background: none;
 }
 
-.main-nav .nav .nav-item .dropdown, .dropup {
+.main-nav .nav .nav-item .dropdown {
     position: relative;
-    display: none;
+}
+
+.dropdown-content.company {
+    right: 240px;
     position: absolute;
+ display: block;
+    background-color: #4D4D4D;
+    min-width: 500px;
+    padding: 40px 10px 30px 70px;
+}
+
+.dropdown-content.resources {
+    right: 136px; 
+ display: block;
     background-color: #4D4D4D;
     min-width: 500px;
     padding: 40px 10px 30px 70px;
