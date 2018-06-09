@@ -266,6 +266,13 @@ a.btn .fa {
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
+.navbar-nav>li>.dropdown-menu .two-column .column {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+}
+
 .navbar-nav>li>.dropdown-menu a {
     color: #FFF;
    font-size: 0.8571em;
