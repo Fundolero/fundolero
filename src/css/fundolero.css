@@ -351,6 +351,7 @@ a.btn-cta {
     line-height: 35px;
 }
 .hero-carousel .carousel-inner .intro + .btn {
+  z-index: 2;
   margin-top: 15px;
 }
 
