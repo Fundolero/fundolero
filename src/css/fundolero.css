@@ -266,7 +266,7 @@ a.btn .fa {
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
-.navbar-nav>li>.column {
+.main-nav .dropdown-menu .nav-title .column {
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -276,7 +276,7 @@ a.btn .fa {
 .navbar-nav>li>.dropdown-menu ul {
     text-align: left;
     padding-left: 0;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .navbar-nav>li>..dropdown-menu ul li {
@@ -288,16 +288,16 @@ a.btn .fa {
 
 .navbar-nav>li>.dropdown-menu a {
     color: #FFF;
-   font-size: 0.9571em;
+   font-size: 1.1571em;
     font-weight: 400;
  
 }
 
 .main-nav .nav .nav-item .dropdown-menu .dropdown-item a {
-    font-size: 0.9571em;
+    font-size: 1.1571em;
      color: #FFF;
     padding-top: .6rem;
-    padding-bottom: 26px;
+    padding-bottom: 24px;
     -webkit-transition: all 150ms linear;
     transition: all 150ms linear;
 }
@@ -316,7 +316,7 @@ a.btn .fa {
     font-size: 24px;
     color: #3aa7aa;
     text-align: left;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     margin-bottom: 0;
 }
 
