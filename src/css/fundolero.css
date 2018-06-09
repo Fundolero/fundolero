@@ -244,7 +244,7 @@ a.btn .fa {
     position: relative;
 }
 
-.dropdown-menu .company {
+.main-nav .dropdown-menu .company {
     right: 240px;
     position: absolute;
  display: block;
@@ -253,7 +253,7 @@ a.btn .fa {
     padding: 40px 10px 30px 70px;
 }
 
-.dropdown-menu .resources {
+.main-nav .dropdown-menu .resources {
     right: 136px; 
  display: block;
     background-color: #4D4D4D;
@@ -261,7 +261,7 @@ a.btn .fa {
     padding: 40px 10px 30px 70px;
 }
 
-.dropdown-menu .nav-title {
+.main-nav .dropdown-menu .nav-title {
     font-size: 26px;
     color: #3aa7aa
     text-align: left;
@@ -269,7 +269,7 @@ a.btn .fa {
     margin-bottom: 0;
 }
 
-.dropdown-divider {
+.main-nav .dropdown-divider {
     height: 0;
     margin: 0.5rem 0;
     overflow: hidden;
