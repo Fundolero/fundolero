@@ -244,7 +244,7 @@ a.btn .fa {
     position: relative;
 }
 
-.dropdown-content.company {
+.dropdown-menu .company {
     right: 240px;
     position: absolute;
  display: block;
@@ -253,7 +253,7 @@ a.btn .fa {
     padding: 40px 10px 30px 70px;
 }
 
-.dropdown-content.resources {
+.dropdown-menu .resources {
     right: 136px; 
  display: block;
     background-color: #4D4D4D;
@@ -261,7 +261,7 @@ a.btn .fa {
     padding: 40px 10px 30px 70px;
 }
 
-.dropdown-content div.nav-title {
+.dropdown-menu .nav-title {
     font-size: 26px;
     color: #3aa7aa
     text-align: left;
