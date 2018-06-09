@@ -239,6 +239,16 @@ a.btn .fa {
   outline: none;
   background: none;
 }
+
+.main-nav .nav .nav-item .dropdown, .dropup {
+    position: relative;
+    display: none;
+    position: absolute;
+    background-color: #4D4D4D;
+    min-width: 500px;
+    padding: 40px 10px 30px 70px;
+}
+
 .main-nav .nav .nav-item:last-child {
   margin-right: 0;
 }
