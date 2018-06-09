@@ -49,11 +49,12 @@ a.btn {
 a.btn .fa {
   margin-right: 5px;
 }
-.btn-cta,
-a.btn-cta {
-  font-weight: bold;
-  font-size: 16px;
-  padding: 10px 30px;
+
+.btn-cta, a.btn-cta {
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 12.5px 30px;
 }
 .btn-primary {
   background: #40babd;
