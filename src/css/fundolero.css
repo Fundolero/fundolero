@@ -253,9 +253,15 @@ a.btn-cta {
  margin-top: 5px;
 }
 
+.header.header-scrolled .main-nav .nav .nav-item a.pill-button  {
+    color: #3aa7aa;
+     border: 1px solid #3aa7aa;
+}
+
 .main-nav .nav.active {
   position: relative;
 }
+
 .nav > li > a {
   padding-left: 5px;
   padding-right: 5px;
