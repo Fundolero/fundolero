@@ -269,6 +269,13 @@ a.btn .fa {
     margin-bottom: 0;
 }
 
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+}
+
 .main-nav .nav .nav-item:last-child {
   margin-right: 0;
 }
