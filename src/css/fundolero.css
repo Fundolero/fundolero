@@ -244,7 +244,7 @@ a.btn .fa {
     position: relative;
 }
 
-.main-nav .nav .nav-item .dropdown-menu {
+.main-nav .nav .nav-item .dropdown .dropdown-menu {
     position: absolute;
     top: 100%;
     left: 0;
@@ -276,12 +276,12 @@ a.btn .fa {
     transition: all 150ms linear;
 }
 
-.main-nav .dropdown-menu .company {
+.main-nav .dropdown-menu #company {
     right: 240px;
  display: block;
 }
 
-.main-nav .dropdown-menu .resources {
+.main-nav .dropdown-menu #resources {
     right: 136px; 
  display: block;
 }
