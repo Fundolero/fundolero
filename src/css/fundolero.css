@@ -151,8 +151,8 @@ a.btn .fa {
   text-align: center;
 }
 .header.header-scrolled .logo .logo-icon {
-  width: 20px;
-  height: 20px;
+  width: 48px;
+  height: 48px;
   margin-right: 0;
 }
 .header.header-scrolled .main-nav .nav .nav-item a {
@@ -186,14 +186,14 @@ a.btn .fa {
   top: -3px;
 }
 .header .logo .logo-icon {
-  width: 30px;
-  height: 30px;
+  width: 48px;
+  height: 48px;
 }
 .header .logo .highlight {
   font-weight: 800;
 }
 .main-nav {
-  margin-top: 6px;
+  margin-top: 16px;
 }
 .main-nav .navbar-toggle {
   margin-right: 0;
