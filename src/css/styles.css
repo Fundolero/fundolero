@@ -1,9 +1,9 @@
 /*   
- * Template Name: Appkit Landing - Responsive Website Template for Developers
+ * App Name: Fundolero Landing - Alternative capital and funding solutions for Businesses
  * Version: 1.0
- * Author: Xiaoying Riley
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
+ * Author: Richard Rowe
+ * Website: http://www.fundolero.com/
+ * Twitter: fundolero
 * License: Creative Commons Attribution 3.0 License
 */
 /* Theme default */
@@ -275,7 +275,7 @@ a.btn-cta {
 }
 .hero-section .figure-holder {
   position: relative;
-  height: 560px;
+  height: 620px;
 }
 .hero-section .figure-holder .figure-image {
   position: absolute;
@@ -284,7 +284,7 @@ a.btn-cta {
   z-index: 10;
 }
 .hero-carousel {
-  height: 560px;
+  height: 620px;
   color: #fff;
 }
 .hero-carousel .carousel-inner .item {
@@ -292,21 +292,21 @@ a.btn-cta {
   background-position: center center;
 }
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url('../images/hero-1.jpg');
+  background-image: url('../img/hero-1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url('../images/hero-2.jpg');
+  background-image: url('../img/hero-2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url('../images/hero-3.jpg');
+  background-image: url('../img/hero-3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
