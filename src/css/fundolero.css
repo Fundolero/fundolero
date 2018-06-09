@@ -244,7 +244,7 @@ a.btn-cta {
 
 .main-nav .nav .nav-item a.pill-button {
     background-color: transparent;
-    padding: 5px 15px;
+    padding: 7.5px 20px;
     border-radius: 30px;
  line-height: 16px;
     border: 1px solid #FFF;
@@ -496,6 +496,29 @@ a.btn-cta {
 .progress.green .progress-left .progress-bar{
     animation: loading-5 1.2s linear forwards 1.8s;
 }
+
+section.optimize-test {
+    display: none;
+    background-color: #E8E8E3;
+}
+
+.optimize-test .minimum-qual.homepage {
+    min-height: 416px;
+    max-width: 1000px;
+    padding: 35px 0 0;
+}
+
+.optimize-test .arrow-down {
+    width: 0;
+    height: 0;
+    margin: 0 auto 55px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #56C271;
+}
+
+
+
 @keyframes loading-1{
     0%{
         -webkit-transform: rotate(0deg);
