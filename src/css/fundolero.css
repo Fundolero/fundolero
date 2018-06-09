@@ -379,10 +379,10 @@ a.btn .fa {
   max-width: 760px;
   line-height: 26px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .about-section .items-wrapper {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .about-section .items-wrapper .figure-holder {
   min-height: 170px;
