@@ -27,10 +27,10 @@
     					<div class="item-content-inner">
     				        
 				            <h2 class="heading"> {{.title}} <br class="hidden-xs">template for app developers</h2>
-                     {{ if .subtitle }}
-				            <p class="intro"> {{.subtitle}}</p>{{ end }}
-                
-				            <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Get Started</a>
+                                            {{ if .subtitle }}
+				            <p class="intro"> {{.subtitle}}</p>
+						{{ end }}
+				            <a class="btn btn-primary btn-cta" href="#" target="_blank">Get Started</a>
     				        
     					</div><!--//item-content-inner-->
 					</div><!--//item-content-->
@@ -40,9 +40,11 @@
 					<div class="item-content container">
 						<div class="item-content-inner">
     				        
-				            <h2 class="heading">Angular Lover?</h2>
-				            <p class="intro">AppKit also comes with an Angular JS version. It empowers developers to create UI components with very little code. Feeding data into AppKit directives is quick and easy.</p>
-				            <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Find out more</a>
+				            <h2 class="heading"> {{.title1}}</h2>
+							 {{ if .subtitle1 }}
+				            <p class="intro">{{.subtitle1}}</p>
+				           {{ end }}
+							<a class="btn btn-primary btn-cta" href="#" target="_blank">Find out more</a>
     				        
     					</div><!--//item-content-inner-->
 					</div>
@@ -52,9 +54,11 @@
 					<div class="item-content container">
 						<div class="item-content-inner">
     				        
-				            <h2 class="heading">Ready to build outstanding apps?</h2>
-				            <p class="intro">Get AppKit today and it will supercharge your development. It's a must-have for any developers who are serious about building great products!</p>
-				            <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Try it now</a>
+				            <h2 class="heading"> {{.title2}}</h2>
+							 {{ if .subtitle2 }}
+				            <p class="intro">{{.subtitle2}}</p>
+				           {{ end }}
+					<a class="btn btn-primary btn-cta" href="#">Try it now</a>
     				        
     					</div><!--//item-content-inner-->
 					</div>
