@@ -117,7 +117,7 @@ a.btn .fa {
   position: fixed;
   width: 100%;
   z-index: 30;
-  height: 60px;
+  height: 80px;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -138,8 +138,8 @@ a.btn .fa {
 }
 .header.header-scrolled .logo .logo-icon-wrapper {
   background: #40babd;
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
