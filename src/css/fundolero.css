@@ -246,9 +246,11 @@ a.btn-cta {
     background-color: transparent;
     padding: 5px 15px;
     border-radius: 30px;
+ line-height: 16px;
     border: 1px solid #FFF;
     transition: background-color .5s ease;
     font-weight: 400;
+ margin-top: 5px;
 }
 
 .main-nav .nav.active {
@@ -346,9 +348,6 @@ a.btn-cta {
 
 .about-section {
   padding-top: 90px;
-}
-
-.about-section .emerald {
     background-color: #56C271;
     color: #FFF;
 }
