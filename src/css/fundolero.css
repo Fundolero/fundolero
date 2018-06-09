@@ -349,8 +349,8 @@ a.btn-cta {
 /* ======= About Section ======= */
 
 .about-section {
-  padding: 90px 0 45px;
-   min-height: 525px;
+  padding: 90px 0 25px;
+   min-height: 515px;
     background-color: #40babd;
     color: #FFF;
 }
@@ -390,7 +390,7 @@ a.btn-cta {
 }
 .about-section .items-wrapper .item-desc {
   color: #FFFFFF;
-   font-size: 16px;
+ font-size: 16px;
 }
 
 .progress{
