@@ -288,7 +288,7 @@ a.btn-cta {
   color: #fff;
 }
 .hero-carousel .carousel-inner .item {
-  height: 560px;
+  height: 621px;
   background-position: center center;
 }
 .hero-carousel .carousel-inner .item-1 {
@@ -313,14 +313,14 @@ a.btn-cta {
   background-size: cover;
 }
 .hero-carousel .carousel-inner .heading {
-  font-size: 30px;
-  line-height: 1.4;
+  font-size: 36px;
+  line-height: 1.6;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
 }
 .hero-carousel .carousel-inner .intro {
-  font-size: 18px;
+  font-size: 21px;
 }
 .hero-carousel .carousel-inner .intro + .btn {
   margin-top: 15px;
