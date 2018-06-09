@@ -267,6 +267,15 @@ a.btn .fa {
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
+.main-nav .nav .nav-item .dropdown-menu .dropdown-item, .bootstrap-select .dropdown-menu.inner li a {
+    font-size: 0.8571em;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    margin-top: 5px;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
 .main-nav .dropdown-menu .company {
     right: 240px;
  display: block;
@@ -275,9 +284,6 @@ a.btn .fa {
 .main-nav .dropdown-menu .resources {
     right: 136px; 
  display: block;
-    background-color: #4D4D4D;
-    min-width: 500px;
-    padding: 40px 10px 30px 70px;
 }
 
 .main-nav .dropdown-menu .nav-title {
