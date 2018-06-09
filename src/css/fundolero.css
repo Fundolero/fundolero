@@ -245,14 +245,10 @@ a.btn-cta {
 .main-nav .nav .nav-item a.pill-button {
     background-color: transparent;
     padding: 5px 15px;
-    margin-bottom: 34px;
     border-radius: 30px;
     border: 1px solid #FFF;
-    font-family: AvenirNext-Regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-style: normal;
     transition: background-color .5s ease;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 400;
 }
 
 .main-nav .nav.active {
