@@ -341,8 +341,14 @@ a.btn-cta {
   margin-top: 15px;
 }
 /* ======= About Section ======= */
+
 .about-section {
   padding-top: 90px;
+}
+
+.about-section .emerald {
+    background-color: #56C271;
+    color: #FFF;
 }
 .about-section .section-title {
   margin: 0;
