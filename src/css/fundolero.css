@@ -266,7 +266,7 @@ a.btn .fa {
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
-.navbar-nav>li>.dropdown-menu .two-column .column {
+.navbar-nav>li>.dropdown-menu .column {
     float: left;
     display: block;
     margin-right: 2.35765%;
