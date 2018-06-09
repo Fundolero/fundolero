@@ -244,7 +244,7 @@ a.btn-cta {
 
 .main-nav .nav .nav-item a.pill-button {
     background-color: transparent;
-    padding: 7.5px 20px;
+    padding: 10px 20px;
     border-radius: 30px;
  line-height: 16px;
     border: 1px solid #FFF;
@@ -347,7 +347,7 @@ a.btn-cta {
 /* ======= About Section ======= */
 
 .about-section {
-  padding: 55px 0 90px;
+  padding: 90px 0 45px;
    min-height: 525px;
     background-color: #40babd;
     color: #FFF;
@@ -355,10 +355,10 @@ a.btn-cta {
 .about-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-   font-weight: bold;
+   font-weight: 600;
    line-height: 1.4em;
     text-align: center;
-     font-size: 48px;
+     font-size: 46px;
 }
 .about-section .intro {
   color: #fefefe;
@@ -388,6 +388,7 @@ a.btn-cta {
 }
 .about-section .items-wrapper .item-desc {
   color: #FFFFFF;
+   font-size: 16px;
 }
 
 .progress{
