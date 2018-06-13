@@ -403,21 +403,21 @@ a.btn .fa {
   background-position: center center;
 }
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url('../img/home/img6.jpg');
+  background-image: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1491559635/bg-featured-1_cyrlb8.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url('../img/home/img9.jpg');
+  background-image: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1491859461/bg-intro-1_otljy4.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url('../img/home/culture.jpg');
+  background-image: url('https://res.cloudinary.com/lmj6rf6tz/image/upload/v1485946474/about-us-header_llsaip.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
