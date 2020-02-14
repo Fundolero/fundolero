@@ -35,7 +35,7 @@
       href="https://cdn.auth0.com/js/auth0-samples-theme/1.0/css/auth0-theme.min.css"
     />
 
-    <title>Login</title>
+    <title>Fundolero</title>
   </head>
   <body class="h-100">
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -50,5 +50,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+<script id="_agile_min_js" async type="text/javascript" src="https://fundolero.agilecrm.com/stats/min/agile-min.js"> </script>
+<script type="text/javascript" >
+var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
+_agile.set_account('jceiiq5qfmnvvo8325jia1hijl', 'fundolero', false);
+_agile.track_page_view();
+_agile_execute_web_rules();};
+</script>
   </body>
 </html>
