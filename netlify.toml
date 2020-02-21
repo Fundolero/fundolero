@@ -1,4 +1,0 @@
-[build]
-  command = "npm run build"
-  publish="/build"
-  base = "https://determined-babbage-b28619.netlify.com"
