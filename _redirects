@@ -1,0 +1,16 @@
+# for root
+/*              /index.html     200
+​
+# for the rest
+/about/*        /about.html     200
+/contact/*      /contact.html   200
+
+/loans/*      /loans.html   200
+/products/*   /products.html   200
+
+/features/*      /features.html   200
+/resources/*    /resources.html   200
+/terms/*      /terms.html   200
+
+/cookies/*      /cookies.html   200
+/privacy/*      /privacy.html   200
