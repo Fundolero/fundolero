@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   Collapse,
-  Container,
   Navbar,
   NavbarToggler,
   NavbarBrand,
@@ -31,13 +30,29 @@ const NavBar = () => {
     });
 
   return (
-    <div className="nav-container">
-      <Navbar color="light" light expand="md">
-        <Container>
-          <NavbarBrand className="logo" />
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
+      <div 
+      tabindex="-1" 
+      role="group" 
+      gatsby-focus-wrapper>
+        <div className="appClassicstyle__AppWrapper-sc-1xr8y9o-0 dsSGfN">
+          <div className="sticky-outer-wrapper">
+            <div className="sticky-inner-wrapper" 
+            style="z-index'9999'" />
+      <Navbar className="navbarstyle__NavbarWrapper-sc-1ry5lm5-0 LJtoB" navbar>
+      <div className="style__ContainerWrapper-sc-1gre7ok-0 fXcefl container">
+      <NavItem>
+                <NavLink
+                  tag={RouterNavLink}
+                  to="/"
+                  exact
+                  ClassName="Link__LinkWrapper-efswp7-0 ePrOKd logo"
+                  display="inline-block"
+                >
+          <img src="../static/logo-b73048211d7a9a05b4c449061f130c5f.png" alt="Fundolero" className="Image__ImageWrapper-xwdy9p-0 cBdvla" />
+                </NavLink>
+              </NavItem>
+              <div className="navbarstyle__MenuArea-sc-1ry5lm5-1 iJVAkO">
+            <Nav className="scrollspy__menu menu mr-auto" navbar>
               <NavItem>
                 <NavLink
                   tag={RouterNavLink}
@@ -54,7 +69,7 @@ const NavBar = () => {
                 <NavItem>
                   <Button
                     id="qsLoginBtn"
-                    color="primary"
+                    color="secondary"
                     className="btn-margin"
                     onClick={() => loginWithRedirect({})}
                   >
@@ -93,6 +108,7 @@ const NavBar = () => {
                 </UncontrolledDropdown>
               )}
             </Nav>
+            </div>
             {!isAuthenticated && (
               <Nav className="d-md-none" navbar>
                 <NavItem>
@@ -145,9 +161,10 @@ const NavBar = () => {
                 </NavItem>
               </Nav>
             )}
-          </Collapse>
-        </Container>
+        </div>
       </Navbar>
+      </div>
+    </div>
     </div>
   );
 };
